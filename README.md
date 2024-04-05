@@ -9,16 +9,19 @@ The data file consists of temperature measurements from various weather stations
 
 Here are ten example lines from the file:
 
-Nsanje;-45.5
-Tirorā;-76.1
-Boumia;15.7
-Leskovac;42.5
-Baharampur;-68.0
-South Londonderry;23.7
-Balingoan;-56.8
-Haa;44.0
-Stuhr;-30.7
-Nyurba;-63.3
+| Station            | Temperature |
+|--------------------|-------------|
+| Nsanje             | -45.5       |
+| Tirorā             | -76.1       |
+| Boumia             | 15.7        |
+| Leskovac           | 42.5        |
+| Baharampur         | -68.0       |
+| South Londonderry  | 23.7        |
+| Balingoan          | -56.8       |
+| Haa                | 44.0        |
+| Stuhr              | -30.7       |
+| Nyurba             | -63.3       |
+
 
 
 The challenge is to develop a Python program capable of reading this file and calculating the minimum, average (rounded to one decimal place), and maximum temperature for each station, displaying the results in a table sorted by station name (example table below).
