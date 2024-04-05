@@ -10,6 +10,9 @@ python = "^3.12.1"
 flake8 = "^7.0.0"
 black = "^24.3.0"
 pre-commit = "^3.7.0"
+tqdm = "^4.66.2"
+pandas = "^2.2.1"
+duckdb = "^0.10.1"
 
 
 [build-system]
